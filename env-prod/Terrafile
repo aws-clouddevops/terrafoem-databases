@@ -1,3 +1,7 @@
-vpc:
+mongodb:
     source:  "https://github.com/aws-clouddevops/tf-module-mongodb.git"
+    version: "main"
+
+redis:
+    source:  "https://github.com/aws-clouddevops/tf-module-redis.git"
     version: "main"
